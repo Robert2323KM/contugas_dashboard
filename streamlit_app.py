@@ -21,7 +21,7 @@ def load_parquet():
 
 def call_api(path: str, method="GET", json=None):
     try:
-        r = requests.request(method, f"{API_URL}{path}", json=json, timeout=15)
+        r = requests.request(method, f"{API_URL}{path}", json=json, timeout=300)
         r.raise_for_status(); return r
     except Exception as e:
         st.error(f"Error API: {e}")
