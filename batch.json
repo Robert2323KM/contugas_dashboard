@@ -1,0 +1,17 @@
+{
+  "readings": [
+    {
+      "cliente_id": "CLIENTE1",
+      "presion": 12.0,
+      "temperatura": 25.0,
+      "volumen": 55.0
+    },
+    {
+      "cliente_id": "NEW_002",
+      "presion": 10.8,
+      "temperatura": 24.2,
+      "volumen": 48.7,
+      "stats_vec": { "values": [10.9, 10.8, 0.3, 24.3, 24.2, 0.2, 48.5, 48.6, 0.6] }
+    }
+  ]
+}

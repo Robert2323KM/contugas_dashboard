@@ -1,0 +1,1 @@
+{ "results": [ { "cliente_id": "CLIENTE1", "segmento": 1, "anomaly": false, "score": 0.021 }, { "cliente_id": "NEW_02", "segmento": 2, "anomaly": true, "score": 0.132 } ] }

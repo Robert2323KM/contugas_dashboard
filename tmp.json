@@ -1,0 +1,7 @@
+{
+  "cliente_id": "NEW_001",
+  "presion": 11.2,
+  "temperatura": 23.5,
+  "volumen": 50.1,
+  "stats_vec": { "values": [11.5, 11.4, 0.4, 23.7, 23.6, 0.3, 49.8, 49.9, 0.7] }
+}

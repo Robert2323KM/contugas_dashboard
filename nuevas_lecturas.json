@@ -1,0 +1,8 @@
+{
+  "rows": [
+    { "Fecha":"2025-05-29 09:00",
+      "Presion":10.8,"Temperatura":23.1,"Volumen":47.6,"cliente":"NEW_01" },
+    { "Fecha":"2025-05-29 09:00",
+      "Presion":12.1,"Temperatura":25.4,"Volumen":54.9,"cliente":"CLIENTE1" }
+  ]
+}

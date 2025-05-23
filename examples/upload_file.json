@@ -1,0 +1,7 @@
+{
+  "rows": [
+    { "Fecha": "2025-05-30 08:00", "Presion": 12, "Temperatura": 25, "Volumen": 55, "cliente": "CLIENTEXX1" },
+    { "Fecha": "2025-05-30 08:00", "Presion": 10.8, "Temperatura": 24.2, "Volumen": 48.7, "cliente": "NEW_22",
+      "stats_vec": { "values": [11, 11, 0.4, 24, 24, 0.3, 49, 49, 0.8] } }
+  ]
+}

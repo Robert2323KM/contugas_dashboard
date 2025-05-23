@@ -1,0 +1,19 @@
+curl -X POST http://127.0.0.1:8000/predict -H "Content-Type: application/json" ^
+     -d "{\"cliente_id\":\"CLIENTE4\",\"presion\":0,\"temperatura\":0,\"volumen\":0}"
+
+
+
+
+
+
+curl -X POST http://127.0.0.1:8000/predict -H "Content-Type: application/json" ^
+ -d "{\"cliente_id\":\"NEW_01\",\"presion\":0,\"temperatura\":0,\"volumen\":0," ^
+ "\"stats_vec\":{\"values\":[10,10,1,22,22,1,45,45,2]}}"
+
+
+curl -X POST http://127.0.0.1:8000/predict ^
+     -H "Content-Type: application/json" ^
+     --data @new01.json
+
+
+curl -X POST http://127.0.0.1:8000/predict -H "Content-Type: application/json" -d "{\"cliente_id\":\"NEW_01\",\"presion\":0,\"temperatura\":0,\"volumen\":0,\"stats_vec\":{\"values\":[10,10,1,22,22,1,45,45,2]}}"
